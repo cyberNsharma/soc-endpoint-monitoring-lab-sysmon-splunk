@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project simulates a real-world Security Operations Center (SOC) environment by implementing endpoint monitoring, detection engineering, alerting, and dashboard creation using:
 
@@ -15,7 +15,7 @@ The goal of this lab is to detect and monitor simulated attacks from a blue-team
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Ingest Windows & Sysmon logs into Splunk
 - Simulate real-world attack scenarios
@@ -27,7 +27,7 @@ The goal of this lab is to detect and monitor simulated attacks from a blue-team
 
 ---
 
-## 🏗️ Lab Architecture
+##  Lab Architecture
 
 Windows Endpoint (Sysmon Installed)  
         ↓  
@@ -39,7 +39,7 @@ Splunk SIEM (Index: endpoint)
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - Microsoft Sysmon (Process monitoring)
 - Splunk Enterprise (SIEM platform)
@@ -48,7 +48,7 @@ Splunk SIEM (Index: endpoint)
 
 ---
 
-# 🔍 Log Source Details
+#  Log Source Details
 
 ## Sysmon Event ID 1 — Process Creation
 
@@ -80,11 +80,11 @@ Used for detecting:
 
 ---
 
-# 🚨 Attack Simulations Performed
+# Attack Simulations Performed
 
 ---
 
-## 1️⃣ Brute Force Attack Simulation
+## 1️ Brute Force Attack Simulation
 
 Simulated multiple failed login attempts.
 
@@ -132,7 +132,7 @@ T1110 — Brute Force
 
 ---
 
-## 2️⃣ PowerShell Execution Monitoring
+## 2️ PowerShell Execution Monitoring
 
 Executed PowerShell manually to simulate suspicious command execution.
 
@@ -173,7 +173,7 @@ T1059.001 — PowerShell
 
 ---
 
-# 🛡️ Detection Engineering
+#  Detection Engineering
 
 Two Scheduled Alerts were created.
 
@@ -213,7 +213,7 @@ Monitor suspicious command execution.
 
 ---
 
-# 📊 SOC Monitoring Dashboard
+#  SOC Monitoring Dashboard
 
 Dashboard Name:
 Endpoint Detection & Monitoring Dashboard
@@ -283,7 +283,7 @@ Identify which endpoint is targeted.
 
 ---
 
-# 🧠 SOC Knowledge Demonstrated
+#  SOC Knowledge Demonstrated
 
 This project demonstrates understanding of:
 
@@ -300,7 +300,7 @@ This project demonstrates understanding of:
 
 ---
 
-# 📸 Screenshots Included
+#  Screenshots Included
 
 - Sysmon logs in Splunk
 - Event ID 4625 detection
@@ -311,7 +311,7 @@ This project demonstrates understanding of:
 
 ---
 
-# 📈 Learning Outcome
+#  Learning Outcome
 
 Through this project, I learned:
 
@@ -324,7 +324,7 @@ Through this project, I learned:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 - Add Sysmon Event ID 3 (Network connections)
 - Add encoded PowerShell detection
@@ -334,14 +334,14 @@ Through this project, I learned:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 Nitin Sharma  
 Aspiring SOC Analyst | Blue Team | DFIR Enthusiast  
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 This project simulates a basic enterprise SOC detection workflow using endpoint telemetry. It demonstrates foundational blue-team skills required for internship or entry-level SOC analyst roles.
 
